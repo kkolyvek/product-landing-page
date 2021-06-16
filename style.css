@@ -60,7 +60,7 @@ main {
 
 section {
   background: #0d1117;
-  height: 200px;
+  /* height: 500px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -75,20 +75,18 @@ form {
   padding: 8px;
 }
 
-p {
-  float: right;
-  padding-right: 42%;
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
 }
 
 input {
   color: black;
 }
 
-#submit-button {
-  text-align: center;
-  color: black;
-  width: 200px;
-  margin: 0 auto;
+#submit-btn {
+  width: 150px;
 }
 
 footer {
