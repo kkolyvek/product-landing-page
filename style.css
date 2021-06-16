@@ -1,0 +1,101 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: salmon;
+}
+
+header {
+  height: 50px;
+  background: #161b22;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 14px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #0d1117;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-center {
+  display: block;
+  margin: 0px auto;
+}
+
+.text-over-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background: black;
+  font-size: 50px;
+  padding: 20px;
+}
+
+#hr-mid {
+  border: 2px solid #161b22;
+}
+
+section {
+  background: #0d1117;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+form {
+  text-align: center;
+  padding: 8px;
+}
+
+p {
+  float: right;
+  padding-right: 42%;
+}
+
+input {
+  color: black;
+}
+
+#submit-button {
+  text-align: center;
+  color: black;
+  width: 200px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 50px;
+  background: #161b22;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
